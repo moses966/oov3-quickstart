@@ -1,0 +1,5 @@
+name: UMA Simple Quickstart Set-up(OOv3)
+
+compile:
+  output_extra:
+     - ABI
