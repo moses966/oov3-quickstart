@@ -25,5 +25,3 @@ This repository provides a minimal implementation of the Optimistic Oracle V3 (O
 **Note**: For more details on how to configure Ape accounts and networks, refer to the [Apeworx documentation](https://docs.apeworx.io/ape/stable/userguides/accounts.html).
 
 ---
-
-This version enhances clarity, structure, and usability while ensuring consistency in formatting.
