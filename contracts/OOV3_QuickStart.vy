@@ -1,5 +1,12 @@
 # pragma version ^0.4.0
 
+"""
+@title OOV3_GettingStarted
+@author Muwawu Moses
+@license MIT
+@notice This is a minimum viable OOV3 integration that mimics the official UMA solidity implementation in Vyper.
+    https://docs.uma.xyz/developers/quick-start
+"""
 
 # EscalationManagerSettings struct
 struct EscalationManagerSettings:
@@ -61,7 +68,6 @@ def assertTruth():
 def settleAndGetAssertionResult() -> bool:
     """
     Settle the assertion, if it has not been disputed and it has passed the challenge window, and return the result.
-    result
     """
     return extcall self.oov3.settleAndGetAssertionResult(self.assertionId)
 
